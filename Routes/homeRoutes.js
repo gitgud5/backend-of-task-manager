@@ -3,7 +3,6 @@ const express = require("express");
 const routers = express.Router();
 
 
-
 routers
   .route("/")
   .get((req, res) => {
