@@ -1,11 +1,25 @@
 const taskModel = require("../model/index");
 
 
-
-module.exports = (req, res) => {
-
-  console.log(req.data);
+const addTask = (req, res) => {
 
 
-  res.send("Add task is not implimented yet");
+  let item = req.body;
+
+  const task = new taskModel(item);
+  task.save();
+
+  console.log(item);
+
+
+
+
+
+
+
+  res.send("Add task is not implimented yet, but it does save data easily...");
 };
+
+
+
+module.exports = addTask;

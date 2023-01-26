@@ -10,5 +10,6 @@ module.exports = {
   getTasks,
   getTasksID,
   Home,
-  DeleteTask
+  DeleteTask,
+  
 };

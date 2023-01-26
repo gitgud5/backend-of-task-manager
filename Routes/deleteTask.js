@@ -5,7 +5,7 @@ const router = express.Router();
 
 
 
-router.get('/deleteTask/:id', DeleteTask)
+router.delete('/deleteTask/:id', DeleteTask)
 
 
 module.exports = router;

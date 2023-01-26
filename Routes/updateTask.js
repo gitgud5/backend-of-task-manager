@@ -4,7 +4,7 @@ const router = express.Router();
 const {updateTask} = require('../controllers')
 
 
-router.get('/updateTask/:id', updateTask )
+router.patch('/updateTask/:id', updateTask );
 
 
 module.exports = router;

@@ -22,6 +22,7 @@ app.use(deleteTask);
 app.use(getTasks);
 app.use(updateTask);
 
+
 // SERVER STARTS HERE AND DB ALSO CONNECTS HERE
 
 mongoose.set("strictQuery", true);
