@@ -5,7 +5,7 @@ const router = express.Router();
 
 
 
-router.get("/addTask", addTask)
+router.post("/addTask", addTask)
 
 
 module.exports = router;
