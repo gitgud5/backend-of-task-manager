@@ -1,4 +1,4 @@
-const taskModel = require("../model/index");
+const taskModel = require("../model");
 
 
 const addTask = (req, res) => {

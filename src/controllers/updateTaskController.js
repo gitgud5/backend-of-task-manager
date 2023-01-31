@@ -1,12 +1,12 @@
-const taskModel = require("../model/index");
+const taskModel = require("../model");
 
 
 const updateTask = async (req, res) => {
-   await taskModel.updateOne(
-    { _id:req.params.id },
+  await taskModel.updateOne(
+    { _id: req.params.id },
     {
       title: "King in the North12",
-      description:"Some game of thrones character"
+      description: "Some game of thrones character"
     }
   );
 

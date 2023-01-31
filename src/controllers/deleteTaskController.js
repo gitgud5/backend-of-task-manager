@@ -1,4 +1,4 @@
-const taskModel = require("../model/index");
+const taskModel = require("../model");
 
 const deleteTask = async (req, res) => {
   await taskModel.deleteOne({ _id: req.params.id });

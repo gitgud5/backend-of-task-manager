@@ -1,15 +1,15 @@
 {
   "name": "backend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is my backend for my task manager application...",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gogo": "node index.js",
-    "gooo": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Umar",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.2.4",
